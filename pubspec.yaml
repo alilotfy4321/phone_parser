@@ -1,10 +1,28 @@
 name: smart_phone_parser
 description: A zero-dependency global phone parser and selector supporting multiple UI design styles with automatic input normalization.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/alilotfy4321/phone_parser.git
 repository: https://github.com/alilotfy4321/phone_parser.git
 issue_tracker: https://github.com/alilotfy4321/phone_parser.git/issues
 
+# Add your information here
+author: Ali Lotfy <alilotfy4321@gmail.com>
+maintainers:
+  - Ali Lotfy <alilotfy4321@gmail.com>
+
+# Add topics for better discovery
+topics:
+  - phone
+  - phone-number
+  - parser
+  - international
+  - validation
+  - flutter
+  - country-code
+
+# Add funding (optional)
+funding:
+  - https://github.com/alilotfy4321/phone_parser.git
 environment:
   sdk: ^3.11.1
   flutter: ">=1.17.0"
