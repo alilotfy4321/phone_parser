@@ -13,12 +13,10 @@ maintainers:
 # Add topics for better discovery
 topics:
   - phone
-  - phone-number
   - parser
   - international
   - validation
   - flutter
-  - country-code
 
 # Add funding (optional)
 funding:
