@@ -25,4 +25,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  smart_phone_parser: ^1.0.1
+  smart_phone_parser: ^1.0.4

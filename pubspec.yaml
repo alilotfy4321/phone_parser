@@ -1,6 +1,6 @@
 name: smart_phone_parser
 description: A zero-dependency global phone parser and selector supporting multiple UI design styles with automatic input normalization.
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/alilotfy4321/smart_phone_parser
 repository: https://github.com/alilotfy4321/smart_phone_parser
 issue_tracker: https://github.com/alilotfy4321/smart_phone_parser/issues
