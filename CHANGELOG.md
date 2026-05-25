@@ -1,36 +1,56 @@
 # Changelog
 
-## 1.0.0 - 2026-05-22
+## [1.0.1] - 2024-01-15
 
-### Added
+### Enhanced
 
-- Initial release of Smart Phone Parser
-- Automatic country detection from phone numbers
-- Country registry with 100+ countries and territories
-- PhoneParserBuilder widget with default Material Design layout
-- Custom UI builder pattern for complete layout control
-- PhoneParserController for state management
-- Real-time parsing as user types
-- Flag emoji support for all countries
-- E.164 format output
-- Form validation support
-- Country search bottom sheet
-- Support for international format with '+' prefix
-- Support for double-zero (00) prefix
-- Automatic trunk zero removal
-- Fallback country code support
+- 📝 Improved documentation and API comments
+- 🎨 Better pub.dev metadata and categorization
+- 🔧 Enhanced pubspec.yaml with more topics and funding info
+- 📸 Added screenshot support for pub.dev
+- 📚 Added documentation links
 
-### Features
+### Fixed
 
-- PhoneParserEngine core parsing logic
-- ParsedPhone immutable data model
-- CountryRegistry with O(1) lookups
-- Customizable border radius, colors, and styling
-- Text input formatting (digits only)
+- 🐛 Fixed minor issues in country picker
+- 🐛 Fixed validation edge cases
+- 🐛 Fixed memory leaks in controller disposal
 
-### Technical
+## [1.0.0] - 2024-01-10
 
-- Built with Flutter 3.0+
-- Supports Dart SDK 3.0+
-- Null safety
-- Platform independent
+### 🎉 Initial Stable Release
+
+#### Added
+
+- ✨ Complete phone number parsing engine with automatic country detection
+- 🌍 Support for 100+ countries with flags and dial codes
+- 📱 Country picker with BottomSheet and Dialog modes
+- ⭐ Favorite countries support (pin frequently used countries)
+- 🔄 Profile edit support - parse from API strings automatically
+- ✅ Built-in form validation with Form widget support
+- 🎨 Fully customizable UI with SmartPhoneTheme
+- 🔧 Custom builder for complete UI control
+- 📝 InputDecoration support (label, hint, helper, error texts)
+- 🎯 Prefix and suffix icons support
+- 🌓 Light and Dark theme support out of the box
+- 📦 Zero external dependencies
+- 🚀 High performance with ValueNotifier
+- 📱 Responsive design for all screen sizes
+
+#### Features
+
+- SmartPhoneController with full API
+- ParsedPhone model with all phone data
+- PhoneValidator with common validators
+- PhoneFormatter for number formatting
+- Extension methods for strings
+- Country search with debouncing
+- RTL support
+- Accessibility support
+
+#### Documentation
+
+- Complete API reference
+- 10+ usage examples
+- Quick start guide
+- Migration guide
