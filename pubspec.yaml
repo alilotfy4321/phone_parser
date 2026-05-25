@@ -47,13 +47,39 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 # Screenshots for pub.dev
-# screenshots:
-#   - description: 'Smart Phone Field Example'
-#     path: screenshots/example1.png
-#   - description: 'Country Picker Bottom Sheet'
-#     path: screenshots/picker.png
-#   - description: 'Dark Mode Support'
-#     path: screenshots/dark_mode.png
+screenshots:
+  - description: 'Simple phone input field with country flag and dial code'
+    path: screenshots/1.jpeg
+  - description: 'User entering phone number with automatic country detection'
+    path: screenshots/2.jpeg
+  - description: 'Country picker bottom sheet with search feature'
+    path: screenshots/3.jpeg
+  - description: 'Selecting country from the picker list'
+    path: screenshots/4.jpeg
+  - description: 'Form validation with error message'
+    path: screenshots/5.jpeg
+  - description: 'Dark mode support with Material Design 3'
+    path: screenshots/6.jpeg
+  - description: 'Custom styling with rounded borders and custom colors'
+    path: screenshots/7.jpeg
+  - description: 'Custom builder for complete UI control'
+    path: screenshots/8.jpeg
+  - description: 'Material Design 3 modern style'
+    path: screenshots/9.jpeg
+  - description: 'Phone number formatting options (E.164, Readable, Local)'
+    path: screenshots/10.jpeg
+  - description: 'Custom mask formatter for phone numbers'
+    path: screenshots/11.jpeg
+  - description: 'Dialog picker for country selection (alternative to bottom sheet)'
+    path: screenshots/12.jpeg
+  - description: 'Dialog picker for country code selection'
+    path: screenshots/dialog for pick country code.jpeg
+  - description: 'Default favorite countries (Egypt and Saudi Arabia)'
+    path: screenshots/fav countries default.jpeg
+  - description: 'Simple login screen with phone and password fields'
+    path: screenshots/simple login.jpeg
+  - description: 'User can assign his own favorite countries'
+    path: screenshots/user assign his fav countries.jpeg
 
 flutter:
   uses-material-design: true
