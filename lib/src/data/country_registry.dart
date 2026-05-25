@@ -1,4 +1,3 @@
-/// Location: lib/src/data/countries.dart
 
 import '../models/parser_country.dart';
 

@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:smart_phone_parser/smart_phone_parser.dart';
-import 'phone_parser.dart';
 
 /// Validation utilities for phone numbers
 class PhoneValidator {

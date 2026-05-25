@@ -464,7 +464,7 @@ class _HomePageState extends State<HomePage> {
                       Container(
                         width: 1,
                         height: 30,
-                        color: Colors.white.withOpacity(0.3),
+                        color: Colors.white.withValues(alpha:0.3),
                       ),
                       Expanded(
                         child: TextField(
@@ -592,7 +592,7 @@ class _HomePageState extends State<HomePage> {
                 Container(
                   padding: const EdgeInsets.all(8),
                   decoration: BoxDecoration(
-                    color: color.withOpacity(0.1),
+                    color: color.withValues(alpha:0.1),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Icon(icon, color: color, size: 24),

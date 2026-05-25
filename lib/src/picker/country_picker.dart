@@ -270,7 +270,7 @@ class _CountryBottomSheetState extends State<CountryBottomSheet> {
       title: Text(country.name),
       trailing: Text('+${country.phoneCode}', style: TextStyle(color: theme.hintColor)),
       selected: widget.selectedCountry?.isoCode == country.isoCode,
-      selectedTileColor: theme.primaryColor.withOpacity(0.1),
+      selectedTileColor: theme.primaryColor.withValues(alpha:0.1),
       onTap: () {
         widget.onCountrySelected(country);
       },
@@ -470,7 +470,7 @@ class _CountryDialogState extends State<CountryDialog> {
       title: Text(country.name),
       trailing: Text('+${country.phoneCode}', style: TextStyle(color: theme.hintColor)),
       selected: widget.selectedCountry?.isoCode == country.isoCode,
-      selectedTileColor: theme.primaryColor.withOpacity(0.1),
+      selectedTileColor: theme.primaryColor.withValues(alpha:0.1),
       onTap: () {
         widget.onCountrySelected(country);
       },

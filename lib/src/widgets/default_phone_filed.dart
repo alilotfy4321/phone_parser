@@ -31,7 +31,6 @@ class DefaultPhoneField extends StatefulWidget {
 
 class _DefaultPhoneFieldState extends State<DefaultPhoneField> {
   final FocusNode _focusNode = FocusNode();
-  bool _isValid = true;
 
   @override
   Widget build(BuildContext context) {

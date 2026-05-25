@@ -1,6 +1,5 @@
 import 'package:smart_phone_parser/smart_phone_parser.dart';
 import 'package:smart_phone_parser/src/data/country_registry.dart';
-import 'parser_country.dart';
 
 /// Immutable model representing a parsed phone number
 class ParsedPhone {

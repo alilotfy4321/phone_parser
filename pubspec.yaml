@@ -5,9 +5,6 @@ homepage: https://github.com/alilotfy4321/smart_phone_parser
 repository: https://github.com/alilotfy4321/smart_phone_parser
 issue_tracker: https://github.com/alilotfy4321/smart_phone_parser/issues
 
-# Author information
-authors:
-  - Ali Lotfy <alilotfy4321@gmail.com>
 
 # Maintainers
 maintainers:
@@ -58,18 +55,10 @@ screenshots:
     path: screenshots/4.jpeg
   - description: 'Form validation with error message'
     path: screenshots/5.jpeg
-  - description: 'Dark mode support with Material Design 3'
-    path: screenshots/6.jpeg
-  - description: 'Custom styling with rounded borders and custom colors'
-    path: screenshots/7.jpeg
-  - description: 'Custom builder for complete UI control'
-    path: screenshots/8.jpeg
   - description: 'Material Design 3 modern style'
     path: screenshots/9.jpeg
   - description: 'Phone number formatting options (E.164, Readable, Local)'
     path: screenshots/10.jpeg
-  - description: 'Custom mask formatter for phone numbers'
-    path: screenshots/11.jpeg
   - description: 'Dialog picker for country selection (alternative to bottom sheet)'
     path: screenshots/12.jpeg
   - description: 'Dialog picker for country code selection'
