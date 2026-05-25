@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.0.1] - 2024-01-15
+## [1.0.1] - 2026-05-25
 
 ### Enhanced
 
@@ -15,8 +15,6 @@
 - 🐛 Fixed minor issues in country picker
 - 🐛 Fixed validation edge cases
 - 🐛 Fixed memory leaks in controller disposal
-
-## [1.0.0] - 2024-01-10
 
 ### 🎉 Initial Stable Release
 
